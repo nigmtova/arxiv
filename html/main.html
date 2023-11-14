@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="For_main">
+        <div class="main_header">
+            <img class="header_cloud" src="../img/Frame 20.png" alt="">
+            <img class="main_back_img" src="../img/Rectangle 3.png" alt="">
+            <img class="main_home_img" src="../img/02 2.png" alt="">
+            <div class="navbar_container">
+    <div class="navbar">
+        <div class="click_navbar1">
+        <div class="click_navbar">
+            <div class="for_block_navbar">
+            <img src="../img/Logo.png" alt="">
+            <ul>
+                <li>Главная</li>
+                <li>Как купить</li>
+                <li>О нас</li>
+                <li>Контакты</li>
+            </ul>
+        </div>
+        <img style="cursor: pointer;" onclick="click_none()" src="../img/arrow-right.png" alt="">
+        </div>
+        <div class="icons_block">
+    <div class="for_icons">
+        <div class="icon_circle"><img src="../img/Vector.png" alt=""></div>
+        <div class="icon_circle"><img src="../img/instagram.png" alt=""></div>
+        <div class="icon_circle"><img src="../img/Vector (1).png" alt=""></div>
+    </div>
+    <button>Записаться на показ</button>
+</div>
+</div>
+        <img src="../img/Logo.png" alt="">
+        <ul>
+            <li class="main_menu_none"><img src="../img/location.svg" alt="">пр-т Комсомольский, 14, оф. 34</li>
+            <li class="main_menu_none"><img src="../img/call-calling.svg" alt="">8 382 250-53-03</li>
+            <li class="main_menu_navbar"><img onclick="click_navbar()" style="cursor: pointer;" src="../img/Frame 34.png" alt=""></li>
+        </ul>
+    </div>
+    </div>
+    <div class="for_center_header1">
+    <div class="for_center_header">
+        <div class="main_for_block">
+        <h1>Тёплый и уютный <br>
+        коттеджный городок</h1>
+        <p>Рядом с селом Карнилово</p>
+        <button>Записаться на показ</button>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="main_for_center">
+    <!-- <img class="black_back" src="../img/Vector 4.png" alt=""> -->
+</div>
+</div>
+<script>
+    function click_navbar() {
+        document.querySelector(".click_navbar1").style="right: 0;"
+    }
+    function click_none() {
+        document.querySelector(".click_navbar1").style="right: -300px;"
+    }
+</script>
+</body>
+</html>
