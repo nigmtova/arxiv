@@ -2,15 +2,6 @@
 .main_header{
     position: relative;
 }
-.navbar li img{
-    margin-right: 15px;
-}
-.navbar_container{
-    display: flex;
-    justify-content: end;
-    padding: 30px;
-}
-
 .main_home_img{
     position: absolute;
     top: 380px;

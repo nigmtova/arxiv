@@ -10,6 +10,14 @@
     list-style: none;
     align-items: center;
 }
+.navbar li img{
+    margin-right: 15px;
+}
+.navbar_container{
+    display: flex;
+    justify-content: end;
+    padding: 30px;
+}
 .navbar li{
     color: white;
     display: flex;
