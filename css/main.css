@@ -1,0 +1,131 @@
+
+.main_header{
+    position: relative;
+}
+.main_home_img{
+    position: absolute;
+    top: 380px;
+    width: 1920px;
+}
+.main_back_img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -11;
+    height: 980px;
+}
+.for_center_header{
+    width: 100%;
+    max-width: 1550px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.For_main{
+    overflow: hidden;
+    height: 1200px;
+}
+.for_center_header1{
+    margin-top: 35px;
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+}
+.for_center_header h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.for_center_header p{
+    margin-top: 10px;
+    font-weight: 100;
+}
+.for_center_header button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    width: 200px;
+    height: 48px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 65px;
+}
+.header_cloud{
+    position: absolute;
+    top: 380px;
+    width: 1920;
+}
+
+body{
+    background: #171921;
+}
+@media(max-width:1280px){
+    .main_home_img{
+        width: 1520px;
+    }
+    .header_cloud{
+        width: 1520px;
+    }
+    .main_back_img{
+        height: 860px;
+    }
+}
+@media(max-width:1024px){
+    .main_home_img{
+        width: 1380px;
+    }
+    .header_cloud{
+        width: 1380px;
+    }
+}
+@media(max-width:767px){
+    .main_home_img{
+        width: 1180px;
+        top: 450px;
+    }
+    .header_cloud{
+        width: 1000px;
+    }
+    .header_cloud{
+        top: 450px;
+    }
+    .main_back_img {
+        height: 790px;
+    }
+    .for_center_header h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:500px){
+    .main_home_img{
+        width: 730px;
+        top: 540px;
+    }
+    .header_cloud{
+        width: 680px;
+        top: 540px;
+    }
+    .main_back_img {
+        height: 790px;
+    }
+}
+@media(max-width:428px){
+    .main_home_img{
+        width: 620px;
+        top: 580px;
+    }
+    .header_cloud{
+        width: 680px;
+        top: 580px;
+        display: none;
+    }
+    .main_back_img {
+        height: 790px;
+    }
+    .header_cloud_media{
+        display: flex !important;
+        position: absolute;
+        top: 580px;
+    }
+    .for_center_header button{
+        width: 100%;
+    }
+}
