@@ -137,5 +137,6 @@
 @media(max-width:428px){
     .click_navbar1{
         width: 100% !important;
+        border-radius: 0px !important;
     }
 }
