@@ -18,8 +18,14 @@
     justify-content: end;
     padding: 30px;
 }
-.navbar li{
+.For_main .navbar li{
     color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.mains_how .navbar li{
+    color: black;
     display: flex;
     align-items: center;
     margin-left: 50px;
@@ -31,13 +37,26 @@
     width: 100%;
     max-width: 1550px;
 }
-.click_navbar1{
+.For_main .click_navbar1{
     height: 100vh;
     background-color: black;
     width: 300px;
     position: fixed;
+    z-index: 1111;
     top: 0;
-    right: -300px;
+    right: -430px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 1s;
+}
+.mains_how .click_navbar1{
+    height: 100vh;
+    background-color: white;
+    width: 300px;
+    position: fixed;
+    z-index: 1111;
+    top: 0;
+    right: -430px;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     transition: 1s;
@@ -55,7 +74,7 @@
     margin-top: 50px;
 }
 .click_navbar li{
-    margin-left: 0px;
+    margin-left: 0px !important;
     margin-top: 25px;
     font-size: 16px;
     cursor: pointer;
@@ -79,17 +98,29 @@
     bottom: 20px;
     left: 40px;
 }
-.icons_block button{
+.For_main .icons_block button{
     width: 180px;
     height: 48px;
     border: 1px solid white;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0);
 }
+.mains_how .icons_block button{
+    width: 180px;
+    height: 48px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
 @media(max-width:750px){
     .navbar li {
-        margin-left: 20px;
+        margin-left: 20px !important;
         font-size: 14px;
+    }
+    .click_navbar li{
+        margin-left: 0px !important;
     }
     .navbar li img{
         margin-right: 10px;
@@ -101,5 +132,10 @@
     }
     .main_menu_none {
         display: none !important;
+    }
+}
+@media(max-width:428px){
+    .click_navbar1{
+        width: 100% !important;
     }
 }

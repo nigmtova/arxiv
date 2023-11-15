@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="../css/how.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>How to 1920</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- <div class="navbar_container">
+    <div class="mains_how">
+    <div class="navbar_container">
         <div class="navbar">
             <div class="click_navbar1">
             <div class="click_navbar">
@@ -32,14 +34,14 @@
         <button>Записаться на показ</button>
     </div>
     </div>
-            <img src="../img/Logo.png" alt="">
+            <img src="../img/Logo2.png" alt="">
             <ul>
                 <li class="main_menu_none"><img src="../img/location.svg" alt="">пр-т Комсомольский, 14, оф. 34</li>
                 <li class="main_menu_none"><img src="../img/call-calling.svg" alt="">8 382 250-53-03</li>
-                <li class="main_menu_navbar"><img onclick="click_navbar()" style="cursor: pointer;" src="../img/Frame 34.png" alt=""></li>
+                <li class="main_menu_navbar"><img onclick="click_navbar()" style="cursor: pointer;" src="../img/Burger.png" alt=""></li>
             </ul>
         </div>
-    </div> -->
+        </div>
     <div class="how-container">
         <div class="how-header">
             <div class="how-header-img">
@@ -250,6 +252,14 @@
                 <p><i class='bx bxs-phone-call'></i>8 382 250-53-03</p>
             </div>
         </div>
-    </div>
+    </div></div>
+    <script>
+        function click_navbar() {
+            document.querySelector(".click_navbar1").style="right: 0;"
+        }
+        function click_none() {
+            document.querySelector(".click_navbar1").style="right: -430px;"
+        }
+    </script>
 </body>
 </html>
