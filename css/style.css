@@ -18,13 +18,13 @@
     justify-content: end;
     padding: 30px;
 }
-.For_main .navbar li{
+.black_main .navbar li{
     color: white;
     display: flex;
     align-items: center;
     margin-left: 50px;
 }
-.mains_how .navbar li{
+.white_main .navbar li{
     color: black;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@
     width: 100%;
     max-width: 1550px;
 }
-.For_main .click_navbar1{
+.black_main .click_navbar1{
     height: 100vh;
     background-color: black;
     width: 300px;
@@ -49,7 +49,7 @@
     border-top-left-radius: 20px;
     transition: 1s;
 }
-.mains_how .click_navbar1{
+.white_main .click_navbar1{
     height: 100vh;
     background-color: white;
     width: 300px;
@@ -98,14 +98,14 @@
     bottom: 20px;
     left: 40px;
 }
-.For_main .icons_block button{
+.black_main .icons_block button{
     width: 180px;
     height: 48px;
     border: 1px solid white;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0);
 }
-.mains_how .icons_block button{
+.white_main .icons_block button{
     width: 180px;
     height: 48px;
     border: 1px solid white;
