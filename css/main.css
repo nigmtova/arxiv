@@ -25,7 +25,7 @@
 }
 .black_main{
     overflow: hidden;
-    height: 1200px;
+    height: 1150px;
 }
 .for_center_header1{
     margin-top: 35px;
@@ -57,7 +57,177 @@
 }
 
 body{
-    background: #171921;
+    background: #0F1115;
+}
+.for_center_card{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto; position: relative;
+}
+.first_center_cards{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1100px;
+    justify-content: space-between;
+   
+}
+.for_first_card{
+    width: 25%;
+    margin-top: 80px;
+}
+.for_first_card h1{
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    z-index: 111;
+}
+.for_first_card p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 50px;
+    line-height: 25px;
+}
+.for_first_card img{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.center_karta{
+    width: 70%;
+}
+.second_center_card{
+    display: flex;
+    align-items: baseline;
+    margin-top: 80px;
+}
+.center_flex_end{
+    display: flex;
+    align-items: end;
+}
+.center_flex_center{
+    display: flex;
+    align-items: center;
+}
+.second_center_card h3{
+    font-weight: 100;
+    width: 96px;
+}
+.center_span{
+    font-size: 42px;
+}
+.centers_for_block p{
+    width: 190px;
+    color: #4D6180;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.centers_for_block{
+    margin-left: 10px;
+}
+.dot_flex{
+    display: flex;
+    align-items: baseline;
+}
+.for_center_mains{
+    padding: 30px;
+} swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+  }
+  /*  */
+  .swipers1{
+    width: 105px !important;
+    margin-top: 15px;
+  }
+
+  swiper-slide {
+    display: flex;
+    margin-right: 0px !important;
+    width: auto !important;
+  }
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .for_bottom_center{
+    background: url("../img/Mask2group.png");
+    padding-top: 200px;
+    height: 1642px;
+    padding-left: 30px;
+  }
+  .number_2_cards{
+    display: flex;
+    justify-content: end;
+  }
+  .first_number_2{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1470px;
+  }
+  .for_2number{
+    position: relative;
+    width: 100%;
+    max-width: 1570px;
+    display: flex;
+    justify-content: end;
+  }
+  .for_2_card{
+    width: 480px;
+  }
+  .number_two_img{
+    position: absolute;
+    left: 0px;
+    top: 220px;
+  }
+  .for_2_card{
+    margin-top: 280px;
+  }
+  .for_2_card p{
+    margin-top: 60px;
+    line-height: 25px;
+  }
+  .for_2_card h1{
+    position: relative;
+    z-index: 11;
+    font-size: 40px;
+  }
+  .for_2_card_2{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .cloud_homes{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+@media(max-width:1000px){
+    .center_karta{
+        width: 50%;
+        height: 30vw;
+    }
+    .for_first_card{
+        width: 45%;
+    }
+}
+@media(max-width:1060px){
+    .for_center_card .mySwiper{
+        display: flex !important;
+    }
+    .second_center_card{
+        display: none;
+    }
 }
 @media(max-width:1280px){
     .main_home_img{
@@ -69,6 +239,9 @@ body{
     .main_back_img{
         height: 860px;
     }
+    .black_main{
+        height: 1000px;
+    }
 }
 @media(max-width:1024px){
     .main_home_img{
@@ -77,8 +250,37 @@ body{
     .header_cloud{
         width: 1380px;
     }
+    .black_main{
+        height: 930px;
+    }
 }
 @media(max-width:767px){
+    .first_center_cards{
+        display: block;
+    }
+    .first_number_2{
+        display: block;
+    }
+    .for_2_card{
+        width: 90%;
+    }
+    .cloud_homes{
+        width: 70%;
+    }
+    .for_2_card_2{
+        margin-top: 40px;
+    }
+    .for_first_card img{
+        top: -50px;
+    }
+    .center_karta {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .for_first_card{
+        width: 100%;
+    }
     .main_home_img{
         width: 1180px;
         top: 450px;
@@ -97,6 +299,9 @@ body{
     }
 }
 @media(max-width:500px){
+    .black_main{
+        height: 850px;
+    }
     .main_home_img{
         width: 730px;
         top: 540px;
@@ -125,7 +330,7 @@ body{
     .header_cloud_media{
         display: flex !important;
         position: absolute;
-        top: 580px;
+        top: 590px;
     }
     .for_center_header button{
         width: 100%;
