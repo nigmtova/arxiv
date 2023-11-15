@@ -1517,11 +1517,26 @@ input::placeholder {
         display: block;
     }
 
+    .pict1 {
+        position: absolute;
+        left: -30%;
+    }
+
     .pict2 {
         position: absolute;
-        left: -40%;
-        top: 20%;
-        width: 380px;
+        left: -10%;
+        top: 10%;
+        width: 100%;
+        max-width: 380px;
+    }
+    
+    .pict3 {
+        position: absolute;
+        right: -40%;
+        bottom: 0;
+        width: 100%;
+        max-width: 330px;
+        height: 299px;
     }
 }
 
@@ -1529,6 +1544,39 @@ input::placeholder {
     .how-container {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+
+    .how-main-h1 p {
+        position: absolute;
+        bottom: 0;
+        right: 20%;
+        color: var(--Black, #0F1115);
+        font-family: Montserrat;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+    } 
+
+    .how-main-h1 {
+        position: relative;
+        width: 342px;
+        height: 152px;
+        margin-bottom: 2rem;
+    }
+    
+    .how-main-h1 h1 {
+        position: absolute;
+        top: -50%;
+        left: 5%;
+        font-family: Manrope;
+        font-size: 190px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -10px;
+        opacity: 0.04;
     }
 
     .how-main-uzunp2 {
@@ -1551,6 +1599,45 @@ input::placeholder {
         display: flex;
         justify-content: flex-start;
         margin-top: 2rem;
+    }
+
+    .pict1 {
+        position: absolute;
+        top: 10%;
+        left: -30%;
+    }
+
+    .pict2 {
+        position: absolute;
+        left: -10%;
+        top: 25%;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .pict3 {
+        position: absolute;
+        right: -30%;
+        bottom: 0;
+    }
+
+    .pict4 {
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        width: 100%;
+        max-width: 280px;
+        height: 175px;
+    }
+
+    .pict5 {
+        position: absolute;
+        bottom: 0;
+        left: -100%;
+    }
+
+    .how-main-cardsi {
+        position: relative;
     }
 
     .hh-med-left h1 {
