@@ -1,4 +1,6 @@
-
+*{
+    color: white;
+}
 .main_header{
     position: relative;
 }

@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
-    color: white;
 }
 .navbar ul{
     display: flex;
