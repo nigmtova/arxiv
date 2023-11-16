@@ -1,77 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/main.css"><link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    <div class="black_main">
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="for_big_main">
+      <div class="black_main">
         <div class="main_header">
-            <img style="display: none;" class="header_cloud_media" src="../img/cloud_PNG24 1.png" alt="">
-            <img class="header_cloud" src="../img/Frame 20.png" alt="">
-            <img class="main_back_img" src="../img/Rectangle 3.png" alt="">
-            <img class="main_home_img" src="../img/02 2.png" alt="">
-            <div class="navbar_container">
-    <div class="navbar">
-        <div class="click_navbar1">
-        <div class="click_navbar">
-            <div class="for_block_navbar">
-            <img src="../img/Logo.png" alt="">
-            <ul>
-                <li>Главная</li>
-                <li>Как купить</li>
-                <li>О нас</li>
-                <li>Контакты</li>
-            </ul>
+          <img
+            style="display: none"
+            class="header_cloud_media"
+            src="../img/cloud_PNG24 1.png"
+            alt=""
+          />
+          <img class="header_cloud" src="../img/Frame 20.png" alt="" />
+          <img class="main_back_img" src="../img/Rectangle 3.png" alt="" />
+          <img class="main_home_img" src="../img/02 2.png" alt="" />
+          <div class="navbar_container">
+            <div class="navbar">
+              <div class="click_navbar1">
+                <div class="click_navbar">
+                  <div class="for_block_navbar">
+                    <img src="../img/Logo.png" alt="" />
+                    <ul>
+                      <li>Главная</li>
+                      <li>Как купить</li>
+                      <li>О нас</li>
+                      <li>Контакты</li>
+                    </ul>
+                  </div>
+                  <img
+                    style="cursor: pointer"
+                    onclick="click_none()"
+                    src="../img/arrow-right.png"
+                    alt=""
+                  />
+                </div>
+                <div class="icons_block">
+                  <div class="for_icons">
+                    <div class="icon_circle">
+                      <img src="../img/Vector.png" alt="" />
+                    </div>
+                    <div class="icon_circle">
+                      <img src="../img/instagram.png" alt="" />
+                    </div>
+                    <div class="icon_circle">
+                      <img src="../img/Vector (1).png" alt="" />
+                    </div>
+                  </div>
+                  <button>Записаться на показ</button>
+                </div>
+              </div>
+              <img src="../img/Logo.png" alt="" />
+              <ul>
+                <li class="main_menu_none">
+                  <img src="../img/location.svg" alt="" />пр-т Комсомольский,
+                  14, оф. 34
+                </li>
+                <li class="main_menu_none">
+                  <img src="../img/call-calling.svg" alt="" />8 382 250-53-03
+                </li>
+                <li class="main_menu_navbar">
+                  <img
+                    onclick="click_navbar()"
+                    style="cursor: pointer"
+                    src="../img/Frame 34.png"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="for_center_header1">
+            <div class="for_center_header">
+              <div class="main_for_block">
+                <h1>
+                  Тёплый и уютный <br />
+                  коттеджный городок
+                </h1>
+                <p>Рядом с селом Карнилово</p>
+                <button>Записаться на показ</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <img style="cursor: pointer;" onclick="click_none()" src="../img/arrow-right.png" alt="">
+        <div class="main_for_center">
+          <!-- <img class="black_back" src="../img/Vector 4.png" alt=""> -->
         </div>
-        <div class="icons_block">
-    <div class="for_icons">
-        <div class="icon_circle"><img src="../img/Vector.png" alt=""></div>
-        <div class="icon_circle"><img src="../img/instagram.png" alt=""></div>
-        <div class="icon_circle"><img src="../img/Vector (1).png" alt=""></div>
+      </div>
+      <div class="for_center_mains">
+        <div class="for_center_card">
+          <div class="first_center_cards">
+            <div class="for_first_card">
+              <img src="../img/01.png" alt="" />
+              <h1>
+                Удобное <br />
+                расположение
+              </h1>
+              <p>
+                Доехать до дома можно всего  за 15-20 минут от города. Прямая
+                дорога позволит вам быстро добраться в город  и обратно домой.
+                <br /><br />
+                Более того, весь путь будет живописным  и в окружении природы.
+              </p>
+            </div>
+            <img class="center_karta" src="../img/Component 1.png" alt="" />
+          </div>
+          <div class="second_center_card">
+            <div class="center_flex_end">
+              <img src="../img/Group.png" alt="" />
+              <div class="center_flex_center">
+                <img src="../img/Line 1.png" alt="" />
+                <img src="../img/Group 1.png" alt="" />
+              </div>
+            </div>
+            <div class="centers_for_block">
+              <div class="dot_flex">
+                <h3><span class="center_span">4</span> минуты</h3>
+                <div class="center_flex_center">
+                  <img
+                    style="margin-left: 10px"
+                    src="../img/Line 2.png"
+                    alt=""
+                  />
+                  <img src="../img/Group 1.png" alt="" />
+                </div>
+              </div>
+              <p>До остановки общественного траспорта</p>
+            </div>
+            <div class="centers_for_block">
+              <div class="dot_flex">
+                <h3><span class="center_span">7</span> минуты</h3>
+                <div class="center_flex_center">
+                  <img
+                    style="margin-left: 10px"
+                    src="../img/Line 2.png"
+                    alt=""
+                  />
+                  <img src="../img/Group 1.png" alt="" />
+                </div>
+              </div>
+              <p>До детского сада и школы</p>
+            </div>
+            <div class="centers_for_block">
+              <div class="dot_flex">
+                <h3><span class="center_span">8</span> минуты</h3>
+                <div class="center_flex_center">
+                  <img
+                    style="margin-left: 10px"
+                    src="../img/Line 2.png"
+                    alt=""
+                  />
+                  <img src="../img/Group 1.png" alt="" />
+                </div>
+              </div>
+              <p>До супермаркетов «Яраче», «Мария-Ра»</p>
+            </div>
+            <div class="centers_for_block">
+              <div class="dot_flex">
+                <h3 style="width: 120px">
+                  <span class="center_span">15</span> минуты
+                </h3>
+              </div>
+              <p>До города Томска</p>
+            </div>
+          </div>
+          <swiper-container
+            style="display: none"
+            class="mySwiper"
+            slides-per-view="3"
+            space-between="30"
+            free-mode="true"
+            navigation="true"
+          >
+            <swiper-slide class="swipers1"
+              ><div class="center_flex_end">
+                <img src="../img/Group.png" alt="" />
+                <div class="center_flex_center">
+                  <img src="../img/Line 1.png" alt="" />
+                  <img src="../img/Group 1.png" alt="" />
+                </div></div
+            ></swiper-slide>
+            <swiper-slide
+              ><div class="centers_for_block">
+                <div class="dot_flex">
+                  <h3><span class="center_span">4</span> минуты</h3>
+                  <div class="center_flex_center">
+                    <img
+                      style="margin-left: 10px"
+                      src="../img/Line 2.png"
+                      alt=""
+                    />
+                    <img src="../img/Group 1.png" alt="" />
+                  </div>
+                </div>
+                <p>До остановки общественного траспорта</p>
+              </div></swiper-slide
+            >
+            <swiper-slide
+              ><div class="centers_for_block">
+                <div class="dot_flex">
+                  <h3><span class="center_span">7</span> минуты</h3>
+                  <div class="center_flex_center">
+                    <img
+                      style="margin-left: 10px"
+                      src="../img/Line 2.png"
+                      alt=""
+                    />
+                    <img src="../img/Group 1.png" alt="" />
+                  </div>
+                </div>
+                <p>До детского сада и школы</p>
+              </div></swiper-slide
+            >
+            <swiper-slide
+              ><div class="centers_for_block">
+                <div class="dot_flex">
+                  <h3><span class="center_span">8</span> минуты</h3>
+                  <div class="center_flex_center">
+                    <img
+                      style="margin-left: 10px"
+                      src="../img/Line 2.png"
+                      alt=""
+                    />
+                    <img src="../img/Group 1.png" alt="" />
+                  </div>
+                </div>
+                <p>До супермаркетов «Яраче», «Мария-Ра»</p>
+              </div></swiper-slide
+            >
+            <swiper-slide
+              ><div class="centers_for_block">
+                <div class="dot_flex">
+                  <h3 style="width: 120px">
+                    <span class="center_span">15</span> минуты
+                  </h3>
+                </div>
+                <p>До города Томска</p>
+              </div></swiper-slide
+            >
+          </swiper-container>
+
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        </div>
+      </div>
+      <div class="for_bottom_center">
+        <div class="number_2_cards">
+            <div class="for_2number">
+            <div class="first_number_2">
+                <div class="for_2_card">
+                    <img class="number_two_img" src="../img/02.png" alt="">
+                    <h1>Созданы для <br>
+                        уюта и тепла</h1>
+                    <p>Хотите жить в тёплом и уютном доме? Коттеджный посёлок предлагает широкий выбор коттеджей, построенных из современных материалов и технологий. Вы найдёте дома различной планировки и площади. Не упустите возможность жить в комфорте – обращайтесь к нам!</p>
+                </div>
+                <div class="for_2_card_2">
+                    <img class="cloud_homes" src="../img/cloud-01 1.png" alt="">
+                    <img style="width: 100%;position: relative; z-index: 11;" src="../img/dom1-2 1.png" alt="">
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+      </div>
     </div>
-    <button>Записаться на показ</button>
-</div>
-</div>
-        <img src="../img/Logo.png" alt="">
-        <ul>
-            <li class="main_menu_none"><img src="../img/location.svg" alt="">пр-т Комсомольский, 14, оф. 34</li>
-            <li class="main_menu_none"><img src="../img/call-calling.svg" alt="">8 382 250-53-03</li>
-            <li class="main_menu_navbar"><img onclick="click_navbar()" style="cursor: pointer;" src="../img/Frame 34.png" alt=""></li>
-        </ul>
-    </div>
-    </div>
-    <div class="for_center_header1">
-    <div class="for_center_header">
-        <div class="main_for_block">
-        <h1>Тёплый и уютный <br>
-        коттеджный городок</h1>
-        <p>Рядом с селом Карнилово</p>
-        <button>Записаться на показ</button>
-    </div>
-    </div>
-    </div>
-</div>
-<div class="main_for_center">
-    <!-- <img class="black_back" src="../img/Vector 4.png" alt=""> -->
-</div>
-</div>
-<script>
-    function click_navbar() {
-        document.querySelector(".click_navbar1").style="right: 0;"
-    }
-    function click_none() {
-        document.querySelector(".click_navbar1").style="right: -430px;"
-    }
-</script>
-</body>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      function click_navbar() {
+        document.querySelector(".click_navbar1").style = "right: 0;";
+      }
+      function click_none() {
+        document.querySelector(".click_navbar1").style = "right: -430px;";
+      }
+    </script>
+  </body>
 </html>
