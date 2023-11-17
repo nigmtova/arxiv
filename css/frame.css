@@ -10,7 +10,7 @@
 
 .frame-container {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
     /* position: relative; */
 }
 
@@ -231,12 +231,13 @@
 
 .fram-main-med-btns {
     display: flex;
-    width: 100%;
-    max-width: 1920px;
+    /* width: 100%; */
+    max-width: 942px;
     padding: 50px 0px 100px 0px;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 10px;
+    margin: auto;
 }
 
 .frame-med-btns {
@@ -244,7 +245,10 @@
     text-align: left;
 }
 
-.frame-btn-div {
+.frame-btn-div,
+.frame-btn-div2,
+.frame-btn-div3,
+.frame-btn-div4 {
     display: flex;
     width: 291.25px;
     height: 89px;
@@ -271,6 +275,13 @@
     align-items: baseline;
     background: #171921;
     overflow: hidden;
+}
+
+.frame-main-medium {
+    width: 100%;
+    background: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .frame-end-right {
@@ -374,7 +385,7 @@
 
 .frame-end-inp input {
     width: 100%;
-    min-width: 380px;
+    max-width: 380px;
     height: 60px;
     border-radius: 20px;
     border: 1px solid var(--blue, #4D6180);
@@ -412,6 +423,7 @@
     line-height: normal;
     letter-spacing: 0.36px;
     text-decoration-line: underline;
+    cursor: pointer;
 } 
 
 .frame-end-inp-btns button {
@@ -483,7 +495,25 @@
 @media (max-width:850px) {
     .fream-main-end{
         display: block;
-        overflow: auto;
+        min-height: 4674px;
+        /* overflow-x: hidden; */
+    }
+
+    .frame-btn-div {
+        display: none;
+    }
+
+    .frame-end-input {
+        width: 100%;
+        max-width: 388px;
+    }
+
+    .frame-end-right {
+        margin-top: 5rem;
+        width: 580px;
+        height: 737px;
+        margin-left: 0;
+        z-index: 10;
     }
 
     .frame-end-img {
@@ -555,16 +585,68 @@
         letter-spacing: 0.72px;
         margin-bottom: 3rem;
     }
+
+    .frame-end-right {
+        width: 100%;
+        padding: 1rem;
+    }
 }
 
 @media (max-width:600px) {
+    .fream-main-end {
+        display: flex;
+        width: 100%;
+        min-height: 1400px;
+        overflow: hidden;
+        padding: 1rem;
+    }
+
+    .frame-end-img2 {
+        width: 100%;
+        max-width: 876px;
+    }
+
+    .frame-end-inp-h1 p {
+        font-size: 25px;
+    }
+
     .frame-header-h01 p {
         font-size: 40px;
+    }
+
+    .frame-med-main-text {
+        padding-left: 1rem;
+    }
+
+    .frame-btn-div2 {
+        display: none;
+    } 
+
+    .frame-end-input {
+        width: 100%;
+        max-width: 388px;
+    }
+
+    .frame-end-input input {
+        width: 100%;
     }
 
     .frame-mm-card {
         display: block;
         padding: 1rem;
+    }
+
+    .frame-end-inp-btns button {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .frame-end-right {
+        margin-top: 5rem;
+        width: 580px;
+        height: 737px;
+        /* margin-left: 5rem; */
+        z-index: 10;
     }
 
     .frame-card-cards1,
@@ -601,9 +683,32 @@
         text-align: center;
         font-size: 28px;
     }
+
+    .frame-btn-div3 {
+        display: none;
+    }
     
     .fram-cards-right img {
         width: 100%;
         height: 214px;
+    }
+
+    .fream-main-end {
+        display: flex;
+        width: 100%;
+        height: 1436px;
+        overflow: hidden;
+        padding: 1rem;
+    }
+
+    .frame-end-left-h2 {
+        font-size: 24px;
+    }
+
+    .frame-end-img2 img{
+        width: 100%;
+        max-width: 652px;
+        max-height: 331px;
+        margin-bottom: 1rem;
     }
 }
