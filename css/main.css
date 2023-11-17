@@ -184,10 +184,10 @@ body{
   .number_two_img{
     position: absolute;
     left: 0px;
-    top: 220px;
+    top: 100px;
   }
   .for_2_card{
-    margin-top: 280px;
+    margin-top: 160px;
   }
   .for_2_card p{
     margin-top: 60px;
@@ -211,7 +211,241 @@ body{
     top: 0;
     left: 0;
   }
+  .main_homes_card h1{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .main_homes_card p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 230px;
+    margin-top: 25px;
+  }
+  .main_homes_card button{
+    margin-top: 25px;
+    width: 200px;
+    height: 48px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+  }
+  .main_homes_cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .homes_image{
+    display: flex;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .homes_image img{
+    width: 100%;
+  }
+  .main_3_centers{
+    max-width: 1040px;
+    width: 100%;
+    margin-top: 50px;
+    
+  }
+  .main_3_first{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .main_3_for_center{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 1240px;
+    width: 100%;
+    position: relative;
+  }
+  .main_3_first img{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .main_3_centers p{
+    width: 480px;
+  }
 
+  .main_4_centers{
+    max-width: 1040px;
+    width: 100%;
+    margin-top: 50px;
+    
+  }
+  .main_4_first{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .main_4_for_center{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 1240px;
+    width: 100%;
+    position: relative;
+  }
+  .main_4_first img{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .main_4_centers p{
+    width: 480px;
+  }
+
+  .number_3_main{
+    padding-top: 100px !important;
+    padding: 30px;
+  }
+  .main_4_centers h1{
+    position: relative;
+    z-index: 11;
+    font-size: 40px;
+  }
+  .main_4_centers p{
+    line-height: 25px;
+  }
+  .main_4_second ul{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .main_4_second li{
+    width: 20%;
+    text-align: center;
+    border-bottom: 2px solid #4D6180;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 20px;
+    color: #4D6180;
+  }
+  .main_4_li_1{
+    border-bottom: 2px solid white !important;
+    color: white !important;
+  }
+
+  
+  .number_3_main{
+    padding-top: 100px !important;
+    padding: 30px;
+  }
+  .main_3_centers h1{
+    position: relative;
+    z-index: 11;
+    font-size: 40px;
+  }
+  .main_3_centers p{
+    line-height: 25px;
+  }
+  .main_3_second ul{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .main_3_second li{
+    width: 25%;
+    text-align: center;
+    border-bottom: 2px solid #4D6180;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 20px;
+    color: #4D6180;
+  }
+  .main_3_li_1{
+    border-bottom: 2px solid white !important;
+    color: white !important;
+  }
+  .main_3_3 h1{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .main_3_3 p{
+    margin-top: 20px;
+    width: 280px;
+  }
+  .mains_3_thirt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    max-width: 1200px;
+    margin-top: 45px;
+  }
+  .main_cardss_3{
+    width: 100%;
+    max-width: 1350px;
+    display: flex;
+    justify-content: end;
+    margin: auto;
+  }
+  .main_3_image_1{
+    margin-top: 140px;
+  }
+  .main_3_image_2{
+    height: 282px;
+    margin-top: 10px;
+  }
+  .main_4_for_center {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 1240px;
+    width: 100%;
+    position: relative;
+}
+.main_4_centers {
+    max-width: 1040px;
+    width: 100%;
+    margin-top: 110px;
+}
+.main_4_first img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+  @media(max-width:1120px){
+    .main_3_3 p{
+    }
+  }
+  @media(max-width:947px){
+    .main_homes_card button{
+        width: 100%;
+    }
+    .main_homes_card{
+        padding-right: 30px;
+    }
+  }
+  @media(max-width:1410px){
+    .for_bottom_center{
+        background: url("../img/Vector\ 4\ \(1\).png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: auto;
+        min-height: 2000px;
+    }
+  }
+  @media(max-width:950px){
+    .for_bottom_center{
+        background: url("../img/Vector\ 4\ \(1\).png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: auto;
+        min-height: 2000px;
+        padding-bottom: 150px;
+    }
+  }
 @media(max-width:1000px){
     .center_karta{
         width: 50%;
@@ -242,6 +476,7 @@ body{
     .black_main{
         height: 1000px;
     }
+    
 }
 @media(max-width:1024px){
     .main_home_img{
@@ -296,6 +531,14 @@ body{
     }
     .for_center_header h1{
         font-size: 40px;
+    }
+}
+@media(max-width:520px){
+    .homes_image_1{
+        display: none;
+    }
+    .homes_image_2{
+        display: flex !important;
     }
 }
 @media(max-width:500px){
