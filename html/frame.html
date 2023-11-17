@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/frame.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="white_main">
     <div class="frame-container">
         <div class="frame-header">
             <div class="frame-header-text">
@@ -23,6 +25,38 @@
                 </div>
             </div>
         </div>
+        <div class="navbar_container">
+            <div class="navbar">
+                <div class="click_navbar1">
+                <div class="click_navbar">
+                    <div class="for_block_navbar">
+                    <img src="../img/Logo2.png" alt="">
+                    <ul>
+                        <li>Главная</li>
+                        <li>Как купить</li>
+                        <li>О нас</li>
+                        <li>Контакты</li>
+                    </ul>
+                </div>
+                <img style="cursor: pointer;" onclick="click_none()" src="../img/arrow-right.png" alt="">
+                </div>
+                <div class="icons_block">
+            <div class="for_icons">
+                <div class="icon_circle"><img src="../img/Vector.png" alt=""></div>
+                <div class="icon_circle"><img src="../img/instagram.png" alt=""></div>
+                <div class="icon_circle"><img src="../img/Vector (1).png" alt=""></div>
+            </div>
+            <button>Записаться на показ</button>
+        </div>
+        </div>
+                <img src="../img/Logo2.png" alt="">
+                <ul>
+                    <li class="main_menu_none"><img src="../img/location.svg" alt="">пр-т Комсомольский, 14, оф. 34</li>
+                    <li class="main_menu_none"><img src="../img/call-calling.svg" alt="">8 382 250-53-03</li>
+                    <li class="main_menu_navbar"><img onclick="click_navbar()" style="cursor: pointer;" src="../img/Burger.png" alt=""></li>
+                </ul>
+            </div>
+            </div>
         <div class="frame-main">
             <div class="frame-main-box">
                 <div class="frame-main-cards">
@@ -145,6 +179,14 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div></div>
+    <script>
+        function click_navbar() {
+          document.querySelector(".click_navbar1").style = "right: 0;";
+        }
+        function click_none() {
+          document.querySelector(".click_navbar1").style = "right: -430px;";
+        }
+      </script>
 </body>
 </html>

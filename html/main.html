@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@700&display=swap"
       rel="stylesheet"
@@ -181,24 +182,17 @@
               <p>До города Томска</p>
             </div>
           </div>
-          <swiper-container
-            style="display: none"
-            class="mySwiper"
-            slides-per-view="3"
-            space-between="30"
-            free-mode="true"
-            navigation="true"
-          >
-            <swiper-slide class="swipers1"
-              ><div class="center_flex_end">
+
+          <div id="myswiper1" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div id="swipers1" class="swiper-slide"><div class="center_flex_end">
                 <img src="../img/Group.png" alt="" />
                 <div class="center_flex_center">
                   <img src="../img/Line 1.png" alt="" />
                   <img src="../img/Group 1.png" alt="" />
                 </div></div
-            ></swiper-slide>
-            <swiper-slide
-              ><div class="centers_for_block">
+            ></div>
+              <div class="swiper-slide"><div class="centers_for_block">
                 <div class="dot_flex">
                   <h3><span class="center_span">4</span> минуты</h3>
                   <div class="center_flex_center">
@@ -211,10 +205,8 @@
                   </div>
                 </div>
                 <p>До остановки общественного траспорта</p>
-              </div></swiper-slide
-            >
-            <swiper-slide
-              ><div class="centers_for_block">
+              </div></div>
+              <div class="swiper-slide"><div class="centers_for_block">
                 <div class="dot_flex">
                   <h3><span class="center_span">7</span> минуты</h3>
                   <div class="center_flex_center">
@@ -227,10 +219,8 @@
                   </div>
                 </div>
                 <p>До детского сада и школы</p>
-              </div></swiper-slide
-            >
-            <swiper-slide
-              ><div class="centers_for_block">
+              </div></div>
+              <div class="swiper-slide"><div class="centers_for_block">
                 <div class="dot_flex">
                   <h3><span class="center_span">8</span> минуты</h3>
                   <div class="center_flex_center">
@@ -243,21 +233,28 @@
                   </div>
                 </div>
                 <p>До супермаркетов «Яраче», «Мария-Ра»</p>
-              </div></swiper-slide
-            >
-            <swiper-slide
-              ><div class="centers_for_block">
+              </div></div>
+              <div class="swiper-slide"><div class="centers_for_block">
                 <div class="dot_flex">
                   <h3 style="width: 120px">
                     <span class="center_span">15</span> минуты
                   </h3>
                 </div>
                 <p>До города Томска</p>
-              </div></swiper-slide
-            >
-          </swiper-container>
-
-          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+              </div></div>
+              <div id="swiper11" class="swiper-slide"></div>
+              <div id="swiper11" class="swiper-slide"></div>
+              <div id="swiper11" class="swiper-slide"></div>
+              <div id="swiper11" class="swiper-slide"></div>
+              <div id="swiper11" class="swiper-slide"></div>
+              <div id="swiper11" class="swiper-slide"></div>
+              <div id="swiper11" class="swiper-slide"></div>
+              <div id="swiper11" class="swiper-slide"></div>
+              <div id="swiper11" class="swiper-slide"></div>
+            </div>
+            <div class="swiper-button-next"><img src="../img/arrow-left.png" alt=""></div>
+  <div class="swiper-button-prev"><img src="../img/arrow-left (1).png" alt=""></div>
+          </div>
         </div>
       </div>
       <div class="for_bottom_center">
@@ -278,18 +275,201 @@
             </div>
             </div>
         </div>
+        <div class="main_homes_cards">
+            <div class="main_homes_card">
+              <div class="homes_image">
+              <img src="../img/dom1-1 (3).png" alt="">
+            </div>
+              <h1>Soul Home</h1>
+              <p>Площадь дома – 105 кв.м. Площадь участка – до 6 соток</p>
+                <button>Подробнее</button>
+            </div>
+            <div class="main_homes_card">
+              <div class="homes_image">
+              <img src="../img/dom2-1.png" alt=""></div>
+              <h1>Soul Home</h1>
+              <p>Площадь дома – 105 кв.м. Площадь участка – до 6 соток</p>
+                <button>Подробнее</button>
+            </div>
+            <div class="main_homes_card">
+              <div class="homes_image">
+              <img style="margin-left: -60px;" src="../img/dom1-1 (4).png" alt=""></div>
+              <h1>Soul Home</h1>
+              <p>Площадь дома – 105 кв.м. Площадь участка – до 6 соток</p>
+                <button>Подробнее</button>
+            </div>
+        </div>
+      </div>
+      <div class="number_3_main">
+        <div class="main_3_for_center">
+          <div class="main_3_centers">
+            <div class="main_3_first">
+            <img src="../img/03.png" alt="">
+            <h1>Сила <br> окружения</h1>
+            <p>Ищете уютное место для жизни за городом, но хотите оставаться недалеко от него? Тогда наш коттеджный поселок – идеальный выбор для вас!</p>
+          </div>
+          <div class="main_3_second">
+            <ul>
+              <li class="main_3_li_1">Экология</li>
+              <li>Доступное рядом</li>
+              <li>Для детей</li>
+              <li>Безопасность</li>
+            </ul>
+            <div id="mySwiper2" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"> <li class="main_3_li_1">Экология</li></div>
+                <div class="swiper-slide"><li>Доступное рядом</li></div>
+                <div class="swiper-slide"><li>Для детей</li></div>
+                <div class="swiper-slide"><li>Безопасность</li></div>
+              </div>
+              <div class="swiper-button-next"><img src="../img/arrow-left.png" alt=""></div>
+    <div class="swiper-button-prev"><img src="../img/arrow-left (1).png" alt=""></div>
+            </div>
+            
+            
+          </div>
+        </div>
+        </div>
+        <div class="main_cardss_3">
+          <div class="mains_3_thirt">
+          <div class="main_3_3">
+            <h1>В гармонии <br> с природой!</h1>
+            <p>Место, где вы можете наслаждаться чистым воздухом  и красивыми пейзажам. <br><br>
+              Мы используем только экологически чистые материалы  и технологии при строительстве домов. Приезжайте к нам  и ощутите разницу!</p>
+          </div>
+          <img class="main_3_image_1" src="../img/Rectangle 7.png" alt="">
+          <img class="main_3_image_2" src="../img/Rectangle 6.png" alt=""></div>
+        </div>
+      </div>
+      <img style="width: 100%;margin-top: 80px;user-drag: none;
+      -webkit-user-drag: none;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;" src="../img/Frame 37.png" alt="">
+      <div class="main_for_4">
+        <div class="main_4_for_center">
+          <div class="main_4_centers">
+            <div class="main_4_first">
+            <img src="../img/04.png" alt="">
+            <h1>Материалы</h1>
+            <p>Мы строим с использованием качественных материалов, обеспечивая долговечность, прочность и безопасность.</p>
+          </div>
+          <div class="main_4_second">
+            <ul>
+              <li class="main_4_li_1">Стены</li>
+              <li>Кровля</li>
+              <li>Фасад</li>
+              <li>Окна</li>
+              <li>утепление</li>
+            </ul>
+            <div id="mySwiper2" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><li class="main_4_li_1">Стены</li></div>
+                <div class="swiper-slide"><li>Кровля</li></div>
+                <div class="swiper-slide"><li>Фасад</li></div>
+                <div class="swiper-slide"><li>Окна</li></div>
+                <div class="swiper-slide"><li>утепление</li></div>
+              </div>
+              <div class="swiper-button-next"><img src="../img/arrow-left.png" alt=""></div>
+    <div class="swiper-button-prev"><img src="../img/arrow-left (1).png" alt=""></div>
+            </div>
+            <div class="main_4_thirt_cards">
+              <div class="main_4_thirt_card">
+              <h1>Как за каменной <br> стеной</h1>
+              <p>Кирпич рядовой — прочный и долговечный материал, который подходит для строительства зданий в любых условиях.  Он экологичен, устойчив к влаге и морозу. Используется для возведения стен, перегородок и фундаментов.</p>
+              <h2>Марка карпича: М150 <br> Размеры: 250 х 120 х 65 мм</h2>
+              </div>
+              <img src="../img/D09AD0B8D180D0BFD0B8 1.png" alt="">
+            </div>
+            
+          
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+          
+            <script>
+
+var swiper = new Swiper("#myswiper1", {
+                slidesPerView: 1,
+                freeMode: true,
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },breakpoints: {
+        300: {
+            slidesPerView: 4,
+          },
+        430: {
+            slidesPerView: 5,
+          },
+        500: {
+            slidesPerView: 6,
+          },
+        570: {
+            slidesPerView: 7,
+          },
+        645: {
+            slidesPerView: 8,
+          },
+        715: {
+            slidesPerView: 9,
+          },
+        800: {
+            slidesPerView: 10,
+          },
+        860: {
+            slidesPerView: 11,
+          },
+          935: {
+            slidesPerView: 12,
+          },
+          1005: {
+            slidesPerView: 13,
+          }
+        },
+              });
+
+              var swiper = new Swiper("#mySwiper2", {
+                slidesPerView: 3,
+                freeMode: true,
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },breakpoints: {
+          300: {
+            slidesPerView: 2,
+          },
+          470: {
+            slidesPerView: 3,
+          }
+        },
+              });
+            </script>        
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="main_5_first">
+        <div class="main_5_for_flex">
+        <img class="dom_img_1"  src="../img/dom1-3 1.png" alt="">
+        <img class="dom_img_2" style="display: none;" src="../img/dom1-3 1 (1).png" alt="">
+        <div class="main_5_for_block">
+          <h1>Записаться <br>на просмотр</h1>
+          <input class="main_input_5" type="text" placeholder="Имя">
+          <input type="text" placeholder="+7 (999) 999-99-99">
+          <p>Нажимая кнопку «Записаться» вы даете согласие на <br> обработку персональных данных.</p>
+          <button>Записаться</button>
+        </div>
+      </div>
       </div>
     </div>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        freeMode: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    </script>
+    
     <script>
       function click_navbar() {
         document.querySelector(".click_navbar1").style = "right: 0;";
