@@ -445,6 +445,11 @@
     display: none;
 }
 
+.frame-end-input {
+    width: 100%;
+    max-width: 388px;   
+}
+
 
 
 
@@ -506,6 +511,7 @@
     .frame-end-input {
         width: 100%;
         max-width: 388px;
+        margin-top: 3rem;
     }
 
     .frame-end-right {
@@ -559,12 +565,12 @@
         display: block;
     }
     .fram-cards-left2 {
-        width: 100%;
+        width: 100%2
         max-width: 420px;
     }
     
     .fram-cards-left2 h6 {
-        color: var(--blue, #4D6180);
+        color: var(-2blue, #4D6180);
         font-family: Manrope;
         font-size: 16px;
         font-style: normal;
@@ -576,7 +582,7 @@
     }
     
     .fram-cards-left2 p {
-        color: var(--Black, #0F1115);
+        color: var(-2Black, #0F1115);
         font-family: Montserrat;
         font-size: 24px;
         font-style: normal;
@@ -596,9 +602,8 @@
     .fream-main-end {
         display: flex;
         width: 100%;
-        min-height: 1400px;
+        min-height: 1520px;
         overflow: hidden;
-        padding: 1rem;
     }
 
     .frame-end-img2 {
@@ -625,6 +630,7 @@
     .frame-end-input {
         width: 100%;
         max-width: 388px;
+        margin-top: 3rem;
     }
 
     .frame-end-input input {
@@ -641,9 +647,14 @@
         max-width: 500px;
     }
 
+    .frame-end-right-text {
+        padding: 1rem;
+    }
+
     .frame-end-right {
         margin-top: 5rem;
-        width: 580px;
+        width: 100%;
+        max-width: 580px;
         height: 737px;
         /* margin-left: 5rem; */
         z-index: 10;
@@ -654,6 +665,7 @@
         width: 100%;
         min-height: 178px;
         margin: 0;
+        margin-top: 1rem;
     }
 
     .frame-cards-text {
@@ -669,6 +681,8 @@
     }
 
     .fram-cards-left2 {
+        color: #4D6180;
+        margin-top: 2rem;
         padding-left: 1rem;
     }
 
