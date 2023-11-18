@@ -526,7 +526,191 @@ body{
     width: 50vw;
 }
 
+.fream-main-end {
+    position: relative;
+    width: 100%;
+    min-height: 109vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background: #171921;
+    overflow: hidden;
+}
 
+.frame-end-right {
+    margin-top: 5rem;
+    width: 580px;
+    height: 737px;
+    margin-left: 5rem;
+    z-index: 10;
+}
+
+.frame-end-left-h1 p {
+    color: var(--White, #FFF);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    padding-left: 25%;
+}
+
+.frame-end-left-h2 {
+    display: none;
+}
+
+.frame-end-right-text ul li span {
+    color: var(--White, #FFF);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.frame-end-right-text ul li {
+    color: rgba(230, 232, 237, 0.60);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 2rem;
+}
+
+.frame-end-right-text {
+    margin-bottom: 4rem;
+}
+
+.frame-end-inp-h1 p {
+    color: var(--White, #FFF);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.frame-end-blur1 {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 627.767px;
+    height: 627.767px;
+    transform: rotate(2.486deg);
+    border-radius: 627.767px;
+    opacity: 0.2;
+    background: #23ED1F;
+    mix-blend-mode: hard-light;
+    filter: blur(150px);
+}
+
+.frame-end-blur2 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 919.964px;
+    height: 919.964px;
+    transform: rotate(2.486deg);
+    border-radius: 919.964px;
+    opacity: 0.2;
+    background: #1FC8ED;
+    mix-blend-mode: hard-light;
+    filter: blur(150px);
+}
+
+.frame-end-inp {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.frame-end-img {
+    position: absolute;
+    left: -200px;
+    bottom: -16px;
+}
+
+
+.frame-end-inp input {
+    width: 100%;
+    max-width: 380px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid var(--blue, #4D6180);
+    margin: 0.2rem;
+    padding-left: 1rem;
+    background: transparent;
+    color: var(--White, #FFF);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+
+.frame-end-inp-btns p {
+    width: 100%;
+    max-width: 380px;
+    color: var(--blue, #4D6180);
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    margin-bottom: 2rem;
+}
+
+.frame-end-inp-btns p span {
+    color: var(--blue, #4D6180);
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-decoration-line: underline;
+    cursor: pointer;
+} 
+
+.frame-end-inp-btns button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid var(--White, #FFF);   
+    background: transparent;
+    color: var(--White, #FFF);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+
+.frame-end-img2 {
+    display: none;
+}
+
+.frame-end-input {
+    width: 100%;
+    max-width: 388px;   
+}
+
+
+@media (max-width:1280px) {
+    .frame-end-img {
+        position: absolute;
+        left: -400px;
+        bottom: -16px;
+    }
+}
 
 @media(max-width:1120px){
     .main_3_image_1{
@@ -535,7 +719,71 @@ body{
     .main_3_image_2{
         margin: auto;
     }
+
+    .frame-end-img {
+        position: absolute;
+        left: -500px;
+        bottom: -16px;
+    }
 }
+
+@media (max-width:850px) {
+    .fream-main-end{
+        display: block;
+        min-height: 4674px;
+        /* overflow-x: hidden; */
+    }
+
+    .frame-end-input {
+        width: 100%;
+        max-width: 388px;
+        margin-top: 3rem;
+    }
+
+    .frame-end-right {
+        margin-top: 5rem;
+        width: 580px;
+        height: 737px;
+        margin-left: 0;
+        z-index: 10;
+    }
+
+    .frame-end-img {
+        display: none;
+    }
+
+    .frame-end-left-h2 {
+        display: flex;
+        color: var(--White, #FFF);
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        margin-bottom: 2rem;
+    }
+
+    .frame-end-img2 {
+        display: flex;
+        margin-left: -20%;
+    }
+
+    .frame-end-img2 img {
+        width: 100%;
+        max-width: 876px;
+        height: 445px;
+    }
+
+    .frame-end-img {
+        display: none;
+    }
+
+    .frame-end-left-h1 {
+        display: none;
+    }
+}
+
 @media(max-width:640px){
     .main_3_3 p{
         width: 100%;
@@ -566,6 +814,50 @@ body{
     }
     .main_3_second ul{
         display: none;
+    }
+
+    .fream-main-end {
+        display: flex;
+        width: 100%;
+        min-height: 1520px;
+        overflow: hidden;
+    }
+
+    .frame-end-img2 {
+        width: 100%;
+        max-width: 876px;
+    }
+
+    .frame-end-input {
+        width: 100%;
+        max-width: 388px;
+        margin-top: 3rem;
+    }
+
+    .frame-end-input input {
+        width: 100%;
+    }
+
+    .frame-end-inp-h1 p {
+        font-size: 25px;
+    }
+
+    .frame-end-inp-btns button {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .frame-end-right-text {
+        padding: 1rem;
+    }
+
+    .frame-end-right {
+        margin-top: 5rem;
+        width: 100%;
+        max-width: 580px;
+        height: 737px;
+        /* margin-left: 5rem; */
+        z-index: 10;
     }
 }
 @media(max-width:810px){
@@ -762,6 +1054,30 @@ body{
     }
     .for_center_header button{
         width: 100%;
+    }
+
+    .fram-cards-right img {
+        width: 100%;
+        height: 214px;
+    }
+
+    .fream-main-end {
+        display: flex;
+        width: 100%;
+        height: 1436px;
+        overflow: hidden;
+        padding: 1rem;
+    }
+
+    .frame-end-left-h2 {
+        font-size: 24px;
+    }
+
+    .frame-end-img2 img{
+        width: 100%;
+        max-width: 652px;
+        max-height: 331px;
+        margin-bottom: 1rem;
     }
 }
 @media(max-width:1660px){

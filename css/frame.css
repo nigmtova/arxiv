@@ -245,6 +245,13 @@
     text-align: left;
 }
 
+.frame-main-medium {
+    width: 100%;
+    background: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .frame-btn-div,
 .frame-btn-div2,
 .frame-btn-div3,
@@ -275,13 +282,6 @@
     align-items: baseline;
     background: #171921;
     overflow: hidden;
-}
-
-.frame-main-medium {
-    width: 100%;
-    background: url(../img/bg2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .frame-end-right {
@@ -479,12 +479,6 @@
         height: 317px;
     }
 
-    .frame-end-img {
-        position: absolute;
-        left: -500px;
-        bottom: -16px;
-    }
-
     .fram-cards-left {
         width: 100%;
         max-width: 420px;
@@ -495,6 +489,12 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .frame-end-img {
+        position: absolute;
+        left: -500px;
+        bottom: -16px;
+    }
 }
 
 @media (max-width:850px) {
@@ -502,10 +502,6 @@
         display: block;
         min-height: 4674px;
         /* overflow-x: hidden; */
-    }
-
-    .frame-btn-div {
-        display: none;
     }
 
     .frame-end-input {
@@ -565,7 +561,7 @@
         display: block;
     }
     .fram-cards-left2 {
-        width: 100%2
+        width: 100%;
         max-width: 420px;
     }
     
@@ -579,6 +575,10 @@
         letter-spacing: 0.48px;
         margin-bottom: 2rem;
         margin-top: 1rem;
+    }
+
+    .frame-btn-div {
+        display: none;
     }
     
     .fram-cards-left2 p {
