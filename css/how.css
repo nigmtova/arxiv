@@ -473,7 +473,7 @@
     border-bottom: 1px solid var(--Gray, #E6E8ED);
     height: 80px;
     width: 100%;
-    max-width: 920px;
+    /* max-width: 920px; */
     /* margin: auto; */
     cursor: pointer;
 }
