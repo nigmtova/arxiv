@@ -49,6 +49,7 @@
     font-size: 14px;
     font-weight: 500;
     margin-top: 65px;
+    transition: 0.5s;
 }
 .header_cloud{
     position: absolute;
@@ -229,6 +230,7 @@ body{
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 30px;
+    transition: 0.5s;
   }
   .main_homes_cards{
     display: flex;
@@ -754,6 +756,15 @@ body{
 .fram-footer-links2 p i {
     margin-right: 0.5rem;
 }
+.main_homes_card button:hover{
+    background: white;
+    color: black;
+}
+.for_center_header button:hover{
+    background: white;
+    color: black;
+}
+
 
 
 
@@ -959,8 +970,6 @@ body{
     }
 }
   @media(max-width:1120px){
-    .main_3_3 p{
-    }
   }
   @media(max-width:947px){
     .main_homes_card button{

@@ -228,8 +228,12 @@
     line-height: normal;
     letter-spacing: 0.42px;
     cursor: pointer;
+    transition: 0.5s;
 }
-
+.how-input-btns button:hover{
+    background-color: black;
+    color: white;
+}
 .how-header-medium {
     display: block;
     margin: auto;
@@ -477,7 +481,10 @@
     /* margin: auto; */
     cursor: pointer;
 }
-
+.how-header-btn button:hover{
+    background-color: black;
+    color: white;
+}
 .how-acc-cards-left p {
     color: var(--dark-blue, #2F3548);
     font-family: Manrope;
@@ -504,12 +511,12 @@
 
 .how-input-card {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .how-input-card input {
-    width: 100%;
-    max-width: 487px;
+    width: 49%;
+    max-width: 480px;
     height: 60px;
     padding-left: 1rem;
     border-radius: 20px;
@@ -589,6 +596,7 @@ input::placeholder {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.42px;
+    transition: 0.5s;
 }
 
 .how-footer {
@@ -629,6 +637,9 @@ input::placeholder {
 
 .footer-links2 p i {
     margin-right: 0.5rem;
+}
+.how-container{
+    padding: 30px !important;
 }
 
 
@@ -1318,6 +1329,13 @@ input::placeholder {
 }
 
 @media (max-width:600px) {
+    .footer-links ul li{
+        margin-left: 0;
+    }
+    .how-input-card input{
+        max-width: 100%;
+        width: 100%;
+    }
     .how-header-dom img {
         width: 100%;
         max-width: 898px;

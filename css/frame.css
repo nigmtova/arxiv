@@ -418,7 +418,10 @@
     letter-spacing: 0.36px;
     margin-bottom: 2rem;
 }
-
+.frame-end-inp-btns button:hover{
+    background: white;
+    color: black;
+}
 .frame-end-inp-btns p span {
     color: var(--blue, #4D6180);
     font-family: Manrope;
@@ -444,6 +447,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.42px;
+    transition: 0.5s;
 }
 
 .frame-end-img2 {

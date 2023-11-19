@@ -113,6 +113,14 @@
     border: 1px solid black;
     color: black;
 }
+button{
+    cursor: pointer !important;
+    position: relative;
+    z-index: 111;
+}
+
+
+
 @media(max-width:750px){
     .navbar li {
         margin-left: 20px !important;
