@@ -698,6 +698,11 @@
     letter-spacing: 0.42px;
     border-radius: 30px;
     border: 1px solid var(--White, #fff);
+    transition: 0.5s;
+  }
+  .card_modal_contact_form_btn button:hover{
+    background: white;
+    color: black;
   }
   @media (max-width: 600px) {
     .card_modal_contact_form_btn {
