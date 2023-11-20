@@ -301,7 +301,7 @@
     justify-content: start;
     flex-direction: column;
   }
-  .swiper-backface-hidden {
+  .card_modal_flex .swiper-backface-hidden {
     width: 100%;
     height: 320px !important;
     margin-left: auto;
