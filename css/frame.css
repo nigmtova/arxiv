@@ -7,7 +7,9 @@
     outline: none;
     text-decoration: none;
 }
-
+body{
+    background-color: #171921;
+}
 .frame-container {
     width: 100%;
     overflow: hidden;
@@ -17,7 +19,7 @@
 .frame-header {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 1080px;
     max-height: 1080px;
     background: var(--Black, #0F1115);
     overflow: hidden;
@@ -262,7 +264,8 @@
     width: 100%;
     background: url(../img/bg2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100% !important;
+    padding-bottom: 60px;
 }
 
 .frame-btn-div,
@@ -310,16 +313,20 @@
     letter-spacing: 1.2px;
     padding-left: 25%;
 }
-
+.for_back_white_div{
+    background-color: #F8F8FA;
+}
 .main-end-big {
+    padding: 20px !important;
     position: relative;
     width: 100%;
     /* min-height: 109vh; */
-    background-color: #0F1115;
     padding: 2rem 0 0 0;
     /* overflow: hidden; */
 }   
-
+.frame-main{
+    background-color: white;
+}
 .frame-end-left-h2 {
     display: none;
 }
@@ -573,15 +580,35 @@
 
 
 /* media section */
+@media(max-width:675px){
+    .frame-main-medium{
+        background: url("../img/675img.png") !important;
+        padding-bottom: 120px !important;
+        background-size: 100% 100% !important;
+    }
+}
 @media (max-width:1280px) {
+    .frame-header{
+        height: 720px;
+    }
     .frame-end-img {
         position: absolute;
         left: -400px;
         bottom: 20%;
     }
+    .frame-main-medium{
+        background: url("../img/1280img.png");
+        padding-bottom: 120px;
+    }
 }
 
 @media (max-width:1024px) {
+    .frame-header{
+        height: 1360px;
+    }
+    .frame-main-medium{
+        background: url("../img/1024img.png");
+    }
     .fram-cards-right img {
         width: 460px;
     }
@@ -639,10 +666,12 @@
     .frame-card-cards1 p{
         font-size: 20px;
     }
+    .frame-header{
+        height: 560px !important;
+    }
 }
 @media (max-width:1000px) {
     .fream-main-end{
-        padding: 1rem;
         height: 1550px;
         /* overflow-x: hidden; */
     }
@@ -773,7 +802,7 @@
 
 @media (max-width:600px) {
     .fream-main-end{
-        padding: 1rem;
+        padding: 0rem;
         height: 1400px;
     }
     .fram-footer-links ul li{
@@ -863,6 +892,9 @@
 }
 
 @media (max-width:428px) {
+    .frame-header{
+        height: 920px;
+    }
     .frame-header-h01 p {
         text-align: center;
         font-size: 28px;
@@ -886,8 +918,8 @@
     }
 
     .fream-main-end{
-        padding: 1rem;
-        height: 1200px;
+        padding: 0rem;
+        min-height: 1200px;
     }
 
     .frame-end-left-h2 {
