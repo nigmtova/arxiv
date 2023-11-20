@@ -54,7 +54,7 @@
 .header_cloud{
     position: absolute;
     top: 380px;
-    width: 1920;
+    width: 1920px;
 }
 
 body{
@@ -330,9 +330,9 @@ body{
     padding-bottom: 20px;
     color: #4D6180;
   }
-  .main_4_li_1{
-    border-bottom: 2px solid white !important;
-    color: white !important;
+  .main_4_thirt_card{
+    max-width: 380px;
+    width: 100%;
   }
   .number_3_main{
     padding-top: 100px !important;
@@ -368,6 +368,8 @@ body{
   .main_3_3 h1{
     font-size: 30px;
     font-weight: 500;
+    width: 100%;
+    max-width: 320px;
   }
   .main_3_3 p{
     margin-top: 20px;
@@ -389,12 +391,26 @@ body{
     justify-content: end;
     margin: auto;
   }
-  .main_3_image_1{
+  .for_main_3_imgages{
     margin-top: 140px;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .for_main_3_imgages img{
+    height: 100%;
+    border-radius: 20px;
   }
   .main_3_image_2{
-    height: 282px;
+    max-width: 480px;
+    width: 100%;
+    height: 294px;
     margin-top: 10px;
+    border-radius: 20px;
   }
   .main_4_for_center {
     display: flex;
@@ -417,12 +433,16 @@ body{
 .main_4_thirt_card h1{
     font-size: 30px;
     font-weight: 500;
+    width: 100%;
+    max-width: 340px;
 }
 .main_4_thirt_card h2{
     color: #FFB800;
     font-weight: 400;
     font-size: 16px;
     margin-top: 15px;
+    max-width: 230px;
+    width: 100%;
 }
 .main_4_thirt_card p{
     width: 100%;
@@ -764,6 +784,20 @@ body{
     background: white;
     color: black;
 }
+.main_4_thirt_cards img{
+    max-width: 460px;
+    width: 100%;
+    margin-left: 20px;
+}
+.div_for_3_media{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
 
 
 
@@ -868,11 +902,11 @@ body{
     }
 }
 
-@media(max-width:640px){
+@media(max-width:743px){
     .main_3_3 p{
         width: 100%;
     }
-    .main_3_image_1{
+    .for_main_3_imgages{
         display: none;
     }
     .main_3_image_2{
@@ -958,7 +992,7 @@ body{
         display: block;
     }
 }
-@media(max-width:735px){
+@media(max-width:775px){
     .main_4_thirt_cards{
         display: block;
     }
@@ -1119,7 +1153,7 @@ body{
         top: 580px;
     }
     .main_3_second li{
-        font-size: 15px;
+        font-size: 14px;
     }
     .header_cloud{
         width: 680px;
@@ -1136,13 +1170,45 @@ body{
     }
     .for_center_header button{
         width: 100%;
+        margin-top: 45px;
     }
-
+    .for_center_header h1 {
+        font-size: 30px;
+    }
+    .for_main_3_media_img{
+        margin-top: 40px !important;
+    }
+    .main_4_centers h1{
+        font-size: 25px;
+    }
+    .main_4_centers {
+        margin-top: 120px;
+    }
+    .for_center_header p{
+        font-size: 16px;
+    }
+    .for_first_card h1{
+        font-size: 25px;
+    }
+    .for_first_card img {
+        top: -80px;
+    }
+    .for_2_card h1{
+        font-size: 25px;
+    }
     .fram-cards-right img {
         width: 100%;
         height: 214px;
     }
-
+    .for_2_card {
+        margin-top: 183px;
+    }
+    .main_3_centers h1{
+        font-size: 25px;
+    }
+    .main_3_centers{
+        margin-top: 80px;
+    }
     .fream-main-end {
         display: flex;
         width: 100%;
