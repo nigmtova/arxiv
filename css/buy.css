@@ -591,7 +591,7 @@
     align-items: center;
     justify-content: center;
   }
-  .accordion-item {
+  .card_modal .accordion-item {
     background-color: rgb(255 255 255 / 0%) !important;
     border-top: 1px solid var(--blue, #4d6180) !important;
     border-bottom: 1px solid var(--blue, #4d6180) !important;
@@ -599,7 +599,7 @@
   .accordion-button {
     background-color: rgb(255 255 255 / 0%) !important;
   }
-  .accordion-button {
+   .card_modal .accordion-button {
     color: var(--White, #fff) !important;
   
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
@@ -618,7 +618,7 @@
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0) !important;
   }
-  .accordion-body {
+  .card_modal .accordion-body {
     color: #fff !important;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
   }
