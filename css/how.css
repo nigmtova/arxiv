@@ -1134,6 +1134,20 @@ input::placeholder {
     max-height: 531px;
 }
 
+.pict3 {
+    right: -240px;
+}
+
+.pict2 {
+    left: auto;
+    right: 0;
+}
+
+.pict1 {
+    left: auto;
+    right: 200px;
+}
+
 .how-header-h1 .how-header-h2 {
     color: var(--Black, #0F1115);
     text-align: center;
@@ -1337,6 +1351,7 @@ input::placeholder {
     width: 100%;
     max-width: 245px;
     text-align: left;
+    margin: 1rem;
 }
 
 .med-cards-h01 {
@@ -1930,6 +1945,12 @@ input::placeholder {
     }
 }
 
+@media (max-width:360px) {
+    .how-main-cards {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
 
 
 /* navbar media */
