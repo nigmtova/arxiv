@@ -387,10 +387,16 @@
     opacity: 0.04;
 }
 
+.how-main-h1 img {
+    position: absolute;
+    top: 0;
+    left: -30%;
+}
+
 .how-main-h1 p {
     position: absolute;
     bottom: 0;
-    right: 30%;
+    /* right: 30%; */
     color: var(--Black, #0F1115);
     font-family: Montserrat;
     font-size: 35px;
@@ -1257,23 +1263,14 @@ input::placeholder {
     height: 152px;
 }
 
-.hh-med-left h1 {
-    position: absolute;
-    top: -50%;
-    left: 0;
-    font-family: Manrope;
-    font-size: 200px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -10px;
-    opacity: 0.04;
+.hh-med-left img {
+    margin-right: 1rem;
 }
 
 .hh-med-left p {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: -0.7rem;
     color: var(--Black, #0F1115);
     font-family: Montserrat;
     font-size: 40px;
