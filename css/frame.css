@@ -17,6 +17,7 @@ body{
 }
 
 .frame-header {
+    display: none;
     position: relative;
     width: 100%;
     height: 1080px;
